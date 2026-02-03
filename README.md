@@ -1,23 +1,24 @@
 # Body Weight & Health Tracking System (CLI)
 
-A console-based health tracking application developed using **Python**, designed to record body measurements, calculate health metrics, and visualize progress over time.
+A console-based health tracking application developed using **Python**, designed to record body measurements, calculate health metrics, and analyze progress over time.
 
 ## Overview
-This project allows users to track body weight and measurements over time, calculate BMI and body fat percentage, and analyze historical data through visual graphs.
+This project allows users to store body measurements on a daily basis, calculate BMI, ideal weight, and body fat percentage, and review historical data with visual analysis.
 
 ## Features
-- Store body measurements with date-based records
+- User-based body measurement tracking
 - BMI and ideal weight calculation
 - Body fat percentage estimation
-- Historical data filtering (weekly, monthly, quarterly)
-- Data visualization using line charts
+- Date-based historical records
+- Weekly, monthly, and quarterly data filtering
+- Data visualization with line charts
 - SQLite-based persistent storage
-- Object-oriented design
+- Modular and object-oriented design
 
 ## System Structure
 - Python CLI application
 - SQLite database
-- Pandas for data processing
+- Pandas & NumPy for data processing
 - Matplotlib for data visualization
 
 ## Technologies Used
@@ -28,4 +29,4 @@ This project allows users to track body weight and measurements over time, calcu
 - Matplotlib
 
 ## Notes
-This project was developed for educational and portfolio purposes to demonstrate data processing, calculations, and visualization in Python.
+This project was developed for educational and portfolio purposes to demonstrate health data tracking, calculations, and data visualization in Python.
